@@ -4,6 +4,4 @@ sqlalchemy>=2.0.36
 pydantic>=2.5.3
 pydantic-settings>=2.1.0
 python-dotenv==1.0.0
-# scapy is optional — only needed for live packet capture on the local machine.
-# Cloud servers (Render, Railway, etc.) cannot capture network packets,
-# so scapy is intentionally excluded here. The app runs normally without it.
+scapy>=2.5.0
